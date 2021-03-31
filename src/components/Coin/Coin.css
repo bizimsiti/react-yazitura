@@ -10,11 +10,12 @@
 }
 
 .Coin-rotate img {
-  transform: rotateY( -360deg );            
+  transform: rotateY(-360deg);
   transition: transform 1s ease;
 }
 
-.Coin-front, .Coin-back {
+.Coin-front,
+.Coin-back {
   position: absolute;
   left: 0;
   height: 100%;
@@ -26,5 +27,5 @@
   z-index: 2;
 }
 .Coin-back {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
